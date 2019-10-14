@@ -1,0 +1,15 @@
+Help on method crop in module PIL.Image:
+
+ccrroopp(box=None) method of PIL.GifImagePlugin.GifImageFile instance
+    Returns a rectangular region from this image. The box is a
+    4-tuple defining the left, upper, right, and lower pixel
+    coordinate.
+    
+    This is a lazy operation.  Changes to the source image may or
+    may not be reflected in the cropped image.  To break the
+    connection, call the :py:meth:`~PIL.Image.Image.load` method on
+    the cropped copy.
+    
+    :param box: The crop rectangle, as a (left, upper, right, lower)-tuple.
+    :rtype: :py:class:`~PIL.Image.Image`
+    :returns: An :py:class:`~PIL.Image.Image` object.
