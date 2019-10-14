@@ -25,5 +25,6 @@ blurred_image = image.filter(PIL.ImageFilter.BLUR)
 blurred_image.show()
 print("{}x{}".format(image.width, image.height))
 
-cropped_image = image.crop((50,0,190,150))
+cropped_image = image.crop((500,0,800,1000))
 cropped_image.show()
+
