@@ -21,7 +21,7 @@ image-geometry==1.12.8
 interactive-markers==1.11.4
 laser-geometry==1.6.4
 message-filters==1.12.14
-Pillow==6.2.0
+Pillow==10.0.1
 pkg-resources==0.0.0
 pluginlib==1.11.3
 python-qt-binding==0.3.4
